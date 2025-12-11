@@ -44,6 +44,7 @@ public void createProject() throws SQLException
 			String actmsg=rep.jsonPath().getString("msg");
 			Assert.assertEquals(expmsg, actmsg);
 			System.out.println("ugujyf");
+	System.out.println("new data")
 			
 			//verify the projectName in db layer
 //			Driver driverref=new Driver();
